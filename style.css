@@ -39,13 +39,13 @@ h2 {
 
 .main {
     margin-left: 400px;
-    padding: 0 20px;
+    padding: 0 50px;
     width: 100%;
 }
 
 .content {
     margin: auto;
-    /*width: 1200px;*/
+    max-width: 1000px;
 }
 
 section {
