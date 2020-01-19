@@ -157,8 +157,10 @@ header section:nth-child(1) {
 
 .project * {
     margin: 0px;
-    background-color: white;
+}
 
+.project {
+    background-color: white;
 }
 
 .projectContent {
