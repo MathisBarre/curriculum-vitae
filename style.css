@@ -1,13 +1,11 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
 
 body {
-   margin: 0;
-   padding: 0;
+    margin: 0px;
+    padding: 0px;
 
-   font-size: 20px;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    display: flex;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -38,8 +36,6 @@ h2 {
 }
 
 .main {
-    margin-left: 400px;
-    padding: 0 50px;
     width: 100%;
 }
 
@@ -64,49 +60,6 @@ section {
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
-}
-
-/* header */
-
-header {
-    width: 400px;
-    background-color: #2B2B2B;
-    color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-}
-
-header section {
-    margin: 0;
-}
-
-header section:nth-child(1) {
-    margin-top: 40px;
-}
-
-/* Section "me" */
-
-.meSection {
-    text-align: center;
-    font-size: 1rem;
-}
-
-.meSection h1 {
-    margin-bottom: 0;
-}
-
-.pPresentation {
-    max-width: 80%;
-    text-align: ju;
-    margin: 20px auto;
-    line-height: 1.5em;
 }
 
 /* Section "technos" */
@@ -271,7 +224,7 @@ header section:nth-child(1) {
 
 @media screen and (max-width: 1000px){
     body {
-        padding: 10px!important;
+        margin: 10px;
     }
     .technoCardWrapper {
         justify-content: space-around;
@@ -313,27 +266,13 @@ header section:nth-child(1) {
 }
 
 @media screen and (max-width: 800px){
-    header {
-        position: static;
-        width: 100vw;
-    }
     body {
         flex-direction: column;
-        padding: 0!important;
+        margin: 20px;
     }
     .main {
         margin: 0;
         padding: 0;
-    }
-    header section:nth-child(1) {
-        margin-top: 0;
-    }
-    header{
-        padding: 40px 0;
-        margin: -20px
-    }
-    body {
-        padding: 20px!important;
     }
     .project.card:hover {
         transform: scale(1);
