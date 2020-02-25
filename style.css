@@ -330,5 +330,18 @@ header section:nth-child(1) {
     }
     header{
         padding: 40px 0;
+        margin: -20px
+    }
+    body {
+        padding: 20px!important;
+    }
+    .project.card:hover {
+        transform: scale(1);
+    }
+
+}
+@media screen and (max-width: 500px){
+    .technoCard{
+        width: 400px;
     }
 }
