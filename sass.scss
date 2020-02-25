@@ -103,7 +103,13 @@
 }
 
 @media screen and (max-width: 800px){
-  header {
+  .header {
     margin: -20px!important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .header {
+    padding: 40px 0;
   }
 }
