@@ -17,7 +17,7 @@ a:hover { text-decoration: underline;}
 
 a.card:hover {
     text-decoration: none;
-    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 img {
@@ -157,6 +157,11 @@ section {
 
 .certificationsWrapper a {
     width: 49.5%;
+    transition-duration: .2s;
+}
+
+.certificationsWrapper a:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .certificationsWrapper img {
@@ -269,9 +274,6 @@ section {
     .main {
         margin: 0;
         padding: 0;
-    }
-    .project.card:hover {
-        transform: scale(1);
     }
 
 }
