@@ -155,16 +155,12 @@ section {
     justify-content: space-between;
 }
 
-.certificationsWrapper img {
+.certificationsWrapper a {
     width: 49.5%;
 }
 
-#h2Cert {
-    margin-bottom: 0px;
-}
-
-#h2Cert + .subtitle {
-    margin-bottom: 25px;
+.certificationsWrapper img {
+    width: 100%;
 }
 
 /* contact */ 
@@ -253,7 +249,7 @@ section {
     .certificationsWrapper {
         flex-direction: column;
     }
-    .certificationsWrapper img {
+    .certificationsWrapper a {
         width: 98%;
         margin-bottom: 5px;
     }

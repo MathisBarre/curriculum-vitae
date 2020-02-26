@@ -84,6 +84,22 @@
           flex: 1;
 }
 
+.commandBanner {
+  display: none;
+  color: white;
+  background-color: #5DADE2;
+  padding: 10px;
+}
+
+.commandBanner__link {
+  text-decoration: underline;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 0.8em;
+}
+
 @media screen and (max-width: 1000px) {
   .header {
     margin: -10px;
@@ -129,11 +145,17 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .commandBanner {
+    margin: 0 -10px;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .header {
     margin: -20px !important;
+  }
+  .commandBanner {
+    margin: 0 -20px !important;
   }
 }
 
